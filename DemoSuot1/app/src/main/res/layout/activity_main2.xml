@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/tvA"
+        android:layout_margin="10dp"
+        android:layout_centerInParent="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        android:text="A"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvB"
+        android:layout_margin="10dp"
+        android:layout_above="@id/tvA"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        android:text="B"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/tvC"
+        android:layout_margin="10dp"
+        android:layout_below="@id/tvA"
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        android:text="C"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvE"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/tvA"
+        android:layout_centerVertical="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        android:text="E"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvD"
+        android:layout_margin="10dp"
+        android:layout_toLeftOf="@id/tvA"
+        android:layout_centerVertical="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        android:text="D"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="center"/>
+
+</RelativeLayout>

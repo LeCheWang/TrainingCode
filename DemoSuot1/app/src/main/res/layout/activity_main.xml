@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvClick"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/custom_radius"
+        android:text="CLICK"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+   <TextView
+        android:id="@+id/tvClick2"
+       android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/custom_radius"
+        android:text="CLICK2"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
